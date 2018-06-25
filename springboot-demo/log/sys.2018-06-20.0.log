@@ -1,0 +1,8 @@
+2018-06-20 16:48:01,956 INFO (StartupInfoLogger.java:48)- Starting SpringbootDemoApplication on DESKTOP-QLRDUIE with PID 12960 (E:\workspace\springboot-demo\target\classes started by an in E:\workspace\springboot-demo)
+2018-06-20 16:48:01,959 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.14.RELEASE, Spring v4.3.18.RELEASE
+2018-06-20 16:48:01,960 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2018-06-20 16:48:06,813 INFO (StartupInfoLogger.java:57)- Started SpringbootDemoApplication in 5.401 seconds (JVM running for 5.966)
+2018-06-20 16:48:26,924 DEBUG (UserController.java:72)- 检查登录有效性，参数session_id: c4d87f51-2ab1
+2018-06-20 16:48:26,991 DEBUG (UserController.java:78)- 登录失效！
+2018-06-20 16:48:27,349 DEBUG (UserController.java:42)- 登录接收参数code: 033A1vR72Hx2pR0lwZS72uHoR72A1vRy
+2018-06-20 16:48:30,203 DEBUG (UserController.java:60)- 登录成功返回session_id: 6d87aea5-5b06

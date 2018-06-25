@@ -1,0 +1,10 @@
+2018-06-21 10:52:31,043 INFO (StartupInfoLogger.java:57)- Started SpringbootDemoApplication in 6.034 seconds (JVM running for 6.579)
+2018-06-21 11:02:05,764 INFO (StartupInfoLogger.java:48)- Starting SpringbootDemoApplication on DESKTOP-QLRDUIE with PID 1172 (E:\workspace\springboot-demo\target\classes started by an in E:\workspace\springboot-demo)
+2018-06-21 11:02:05,767 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.14.RELEASE, Spring v4.3.18.RELEASE
+2018-06-21 11:02:05,767 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2018-06-21 11:02:10,612 INFO (StartupInfoLogger.java:57)- Started SpringbootDemoApplication in 5.344 seconds (JVM running for 5.905)
+2018-06-21 11:02:19,494 DEBUG (RouteController.java:17)- 进入controller...
+2018-06-21 11:02:47,694 DEBUG (RouteController.java:17)- 进入controller...
+2018-06-21 11:25:25,773 INFO (StartupInfoLogger.java:48)- Starting SpringbootDemoApplication on DESKTOP-QLRDUIE with PID 6252 (E:\workspace\springboot-demo\target\classes started by an in E:\workspace\springboot-demo)
+2018-06-21 11:25:25,789 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.14.RELEASE, Spring v4.3.18.RELEASE
+2018-06-21 11:25:25,792 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default

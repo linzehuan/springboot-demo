@@ -1,0 +1,43 @@
+server:
+  port: 8080
+  
+spring:
+  datasource:
+    name: demo
+    url: jdbc:mysql:///mini_app
+    username: root
+    password: 123456
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+  
+  #配置JSP视图
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+    
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    database: 0
+    # 连接超时时间（毫秒）
+    timeout: 30000
+    pool:
+      # 连接池最大连接数（使用负值表示没有限制）
+      max-active: 5
+      # 连接池最大阻塞等待时间（使用负值表示没有限制）
+      max-wait: -1
+      # 连接池中的最大空闲连接
+      max-idle: 3
+      # 连接池中的最小空闲连接
+      min-idle: 0
+      
+    
+mybatis:
+  #实体类包
+  type-aliases-package: com.dsx.entities
+  
+  mapper-locations: classpath:mapper/*.xml
+  
+logging: 
+  config: classpath:log-config/logback.xml

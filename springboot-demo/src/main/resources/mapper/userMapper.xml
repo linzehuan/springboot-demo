@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dsx.dao.UserDao">
+	
+	<resultMap type="com.dsx.entities.User" id="res_user">
+		<result column="nick_name" property="nickName"/>
+		<result column="head_portrait_url" property="headPortraitUrl"/>
+	</resultMap>
+	
+	<parameterMap type="com.dsx.entities.User" id="param_user">
+		<parameter property="nickName" resultMap="res_user"/>
+		<parameter property="headPortraitUrl" resultMap="res_user"/>
+	</parameterMap>
+	
+	<!-- public void addUser(User user); -->
+	<insert id="addUser" parameterMap="param_user">
+		insert into user(openid,nick_name,head_portrait_url,phone) values(#{openid},#{nickName},#{headPortraitUrl},#{phone})
+	</insert>
+	
+</mapper>
